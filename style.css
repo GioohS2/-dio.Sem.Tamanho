@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(6, 41, 6);
+    color: rgb(240, 238, 238);
+    font-family: "Merriweather", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(125, 138, 129);
+    color: whitesmoke;
+    font-family: "Merriweather", serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 60%;
+}

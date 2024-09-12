@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Ódio sem Tamanho</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenário-passo0.png" alt="">
+            <p>Numa vila de gnomos felizes, o rei gnomo acabou se envolvendo em uma guerra de território, onde disputavam com gigantes. Você é um gnomo guerreiro e sua missão é retirar a população da vila e levar para um novo território. Para onde ir?</p>
+            <button class="btn-proximo" data-proximo="1">Jardim das Flores Sussurrantes</button>
+            <button class="btn-proximo" data-proximo="2">Bosque dos Gritos de Pedra</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começou sua jornada no Jardim das Flores Sussurrantes, as flores aconselham os gnomos a irem para a Montanha Dos Segredos Ancestrais, e rápido, pois, os gigantes estão a caminho.</p>
+            <button class="btn-proximo" data-proximo="3">Escutar as flores e ir para a Montanha</button>
+            <button class="btn-proximo" data-proximo="4">Não dar ouvidos as flores e se aconchegar no Jardim</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você começa sua jornada no Bosque dos Gritos de Pedra, uma parte da população se aconchega sob uma clareira e adormecem, enquanto a outra parte se junta para uma investigação breve do local. Onde ir?</p>
+            <button class="btn-proximo" data-proximo="5">Túneis Subterrâneos</button>
+            <button class="btn-proximo" data-proximo="6">Fontes e Lagos Mágicos</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Chegando na Montanha dos Segredos Ancestrais, você se depara com o que se parecem com escritos antigos, apontando para um local que diziam ser enfeitiçado.</p>
+            <button class="btn-proximo" data-proximo="7">Prosseguir</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenário-passo4-final-flor.png" alt="Final-Ruim: Desobediência tem Preço">
+            <p>Os gnomos se aconchegam e sem a intenção, acabam ferindo uma flor, ferida e desesperada, seus sussurros se transformam em gritos, que chamam a atenção dos gigantes, eliminando assim toda a vila.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você decide explorar os Túneis Subterrâneos, enquanto andam, você e seu grupo encontram comida e kits médicos, então, tudo é levado para o lado de fora.</p>
+            <button class="btn-proximo" data-proximo="7">Prosseguir</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você decide explorar as Fontes e Lagos Mágicos, quando, descobrem poderes curativos vindo das águas quando bebidas,você e seu grupo retornam para informar o restante da vila.</p>
+            <button class="btn-proximo" data-proximo="8">Contar a novidade para o resto da vila.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Enquanto todos comemoravam com a esperança no olhar, você sente que está conseguindo manter todos longe do perigo. Quando, derrepenete, um ser mistico teleporta você e a vila para as Fontes e Lagos Mágicos. O que fazer?</p>
+            <button class="btn-proximo" data-proximo="9">Se sacrificar e entrar nas águas</button>
+            <button class="btn-proximo" data-proximo="10">Permanecer no local aonde foram teleportados</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você conta a novidade para o resto da população, todos são curados e você encontra uma saída.</p>
+            <button class="btn-proximo" data-proximo="13">Prosseguir</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você entra naquelas águas misteriosas e descobre seus poderes curativos quando consumida, todos são curados e você encontra uma saída.</p>
+            <button class="btn-proximo" data-proximo="11">Sair do local</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Passam algumas horas e você encontra uma maneira de contornar as águas sem entrar, assim encontram uma saída.</p>
+            <button class="btn-proximo" data-proximo="12">Sair do local</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenário-passo11-final-fadas.png" alt="Final Bom">
+            <p>Após sair, vocês se deparam com um lindo local, com fadas e flores perfumas, o rei gnomo é informado e a guerra se acaba, a vila tem um novo local cheio de vida e alegria. Você cumpriu sua missão, Parabéns!</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/cenário-passo11-final-fadas.png" alt="Final Bom">
+            <p>Após sair, vocês se deparam com um lindo local, com fadas e flores perfumas, o rei gnomo é informado e a guerra se acaba, a vila tem um novo local cheio de vida e alegria. Você cumpriu sua missão, Parabéns!</p>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="img/cenário-passo11-final-fadas.png" alt="Final Bom">
+            <p>Após sair, vocês se deparam com um lindo local, com fadas e flores perfumas, o rei gnomo é informado e a guerra se acaba, a vila tem um novo local cheio de vida e alegria. Você cumpriu sua missão, Parabéns!</p>
+        </div>
+
+
+     <script src="script.js"></script>
+    </main>
+
+</body>
+</html>
